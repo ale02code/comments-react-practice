@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react"
 
 const API_URL = "https://jsonplaceholder.typicode.com/comments"
 
-function PostsFetching() {
+function CommentsFetching() {
   const [comments, setComments] = useState([]);
 
   useEffect(() => {
@@ -17,4 +17,4 @@ function PostsFetching() {
   return { comments, setComments };
 }
 
-export default PostsFetching;
+export default CommentsFetching;
