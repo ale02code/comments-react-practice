@@ -18,13 +18,13 @@ export function useForm() {
 
     if (writeComment !== "") {
       setComments((prevState) => [
-        ...prevState,
-
         {
           id: id,
           email: user || "unknown@xxx.com",
           body: writeComment,
         },
+
+        ...prevState,
       ]);
     }
 
