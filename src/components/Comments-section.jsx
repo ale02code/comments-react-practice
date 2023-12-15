@@ -1,5 +1,5 @@
 import React from "react";
-import { useComment } from "../hooks/usecomment";
+import { useComment } from "../hooks/useComment";
 import RemoveIcon from "../assets/removeIcon.svg";
 import LikeIcon from "../assets/likeIcon.svg";
 
